@@ -1,0 +1,161 @@
+frames 80
+basename robot
+
+//BODY
+push
+
+//move 250 250 0
+move 187.5 200 0
+
+box -187.5 -180 0 500 1 1
+
+move 0 150 0 movenator
+
+box 0 0 0 125 50 50
+
+vary movenator 0 19 0 1
+vary movenator 20 59 1 1
+vary movenator 60 74 1 0
+vary movenator 75 79 0 0
+
+//BASE
+push
+move 45 -50 0
+box 0 0 0 35 30 50
+
+push
+move 0 -30 0
+box 0 0 0 35 30 50
+
+push
+move 0 -30 0
+box 0 0 0 35 30 50
+
+push
+move -62.5 -30 55
+box 0 0 0 160 40 160
+
+pop
+pop
+pop
+pop
+
+//RIGHT ARM
+
+push
+move 125 0 0
+move 0 -25 -30
+rotate x -90 spinnyarm
+
+scale 1 .625 .75
+sphere 0 0 0 40
+
+vary spinnyarm 0 4 0 1
+vary spinnyarm 5 9 1 0
+vary spinnyarm 10 14 0 1
+vary spinnyarm 15 19 1 0
+vary spinnyarm 20 24 0 1
+vary spinnyarm 25 29 1 0
+vary spinnyarm 30 34 0 1
+vary spinnyarm 35 39 1 0
+vary spinnyarm 40 44 0 1
+vary spinnyarm 45 49 1 0
+vary spinnyarm 50 54 0 1
+vary spinnyarm 55 59 1 0
+vary spinnyarm 60 79 0 0
+
+push
+move 36 25 55
+rotate y 20
+box 0 0 0 27 50 60
+
+push
+move 27 0 -4
+rotate y 140
+box 0 0 0 17 50 60
+
+push
+move 3 0 -50
+rotate y 20
+box 0 0 0 16 50 40
+
+push
+move -10 0 -20
+box 0 0 0 60 50 40
+
+push
+move 40 0 20
+box 0 0 0 27 50 60
+
+pop
+pop
+pop
+pop
+pop
+pop
+
+
+//LEFT ARM
+
+push
+move 0 0 0
+move 0 -25 -30
+
+rotate x -90 spinnyarm
+
+rotate z 180
+scale 1 .625 .75
+sphere 0 0 0 40
+
+push
+move 36 25 55
+rotate y 20
+box 0 0 0 27 50 60
+
+push
+move 27 0 -4
+rotate y 140
+box 0 0 0 17 50 60
+
+push
+move 3 0 -50
+rotate y 20
+box 0 0 0 16 50 40
+
+push
+move -10 0 -20
+box 0 0 0 60 50 40
+
+push
+move 40 0 20
+box 0 0 0 27 50 60
+
+pop
+pop
+pop
+pop
+pop
+pop
+
+//HEAD
+
+push
+move 45 40 0
+box 0 0 0 35 40 50
+
+push
+move -27.5 30 0
+box 0 0 0 90 30 95
+
+move 20 -15 0
+scale 1 1 0
+sphere 0 0 0 12
+
+move 50 0 0
+sphere 0 0 0 12
+
+
+pop
+pop
+
+//display

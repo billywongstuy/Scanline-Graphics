@@ -1,0 +1,404 @@
+python main.py simple_anim.mdl
+('push',)
+('move', 250, 250, 0, None)
+('sphere', 0, 0, 0, 200, None)
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+starting vals    (188.1966011250105, 308.7785252292473) (250.0, 311.8033988749895) (250.0, 411.8033988749895)
+draw in loop      188 308 188 308
+308.778525229 311.803398875
+below mid
+draw in loop      188 309 208 309
+309.778525229 311.803398875
+below mid
+draw in loop      189 310 229 310
+310.778525229 311.803398875
+below mid
+going to middle
+draw in loop      189 311 250 311
+311.803398875 311.803398875
+above mid
+draw in loop      190 312 250 312
+312.803398875 311.803398875
+above mid
+draw in loop      191 313 250 313
+313.803398875 311.803398875
+above mid
+draw in loop      191 314 250 314
+314.803398875 311.803398875
+above mid
+draw in loop      192 315 250 315
+315.803398875 311.803398875
+above mid
+draw in loop      192 316 250 316
+316.803398875 311.803398875
+above mid
+draw in loop      193 317 250 317
+317.803398875 311.803398875
+above mid
+draw in loop      194 318 250 318
+318.803398875 311.803398875
+above mid
+draw in loop      194 319 250 319
+319.803398875 311.803398875
+above mid
+draw in loop      195 320 250 320
+320.803398875 311.803398875
+above mid
+draw in loop      195 321 250 321
+321.803398875 311.803398875
+above mid
+draw in loop      196 322 250 322
+322.803398875 311.803398875
+above mid
+draw in loop      197 323 250 323
+323.803398875 311.803398875
+above mid
+draw in loop      197 324 250 324
+324.803398875 311.803398875
+above mid
+draw in loop      198 325 250 325
+325.803398875 311.803398875
+above mid
+draw in loop      198 326 250 326
+326.803398875 311.803398875
+above mid
+draw in loop      199 327 250 327
+327.803398875 311.803398875
+above mid
+draw in loop      200 328 250 328
+328.803398875 311.803398875
+above mid
+draw in loop      200 329 250 329
+329.803398875 311.803398875
+above mid
+draw in loop      201 330 250 330
+330.803398875 311.803398875
+above mid
+draw in loop      201 331 250 331
+331.803398875 311.803398875
+above mid
+draw in loop      202 332 250 332
+332.803398875 311.803398875
+above mid
+draw in loop      203 333 250 333
+333.803398875 311.803398875
+above mid
+draw in loop      203 334 250 334
+334.803398875 311.803398875
+above mid
+draw in loop      204 335 250 335
+335.803398875 311.803398875
+above mid
+draw in loop      204 336 250 336
+336.803398875 311.803398875
+above mid
+draw in loop      205 337 250 337
+337.803398875 311.803398875
+above mid
+draw in loop      206 338 250 338
+338.803398875 311.803398875
+above mid
+draw in loop      206 339 250 339
+339.803398875 311.803398875
+above mid
+draw in loop      207 340 250 340
+340.803398875 311.803398875
+above mid
+draw in loop      207 341 250 341
+341.803398875 311.803398875
+above mid
+draw in loop      208 342 250 342
+342.803398875 311.803398875
+above mid
+draw in loop      209 343 250 343
+343.803398875 311.803398875
+above mid
+draw in loop      209 344 250 344
+344.803398875 311.803398875
+above mid
+draw in loop      210 345 250 345
+345.803398875 311.803398875
+above mid
+draw in loop      210 346 250 346
+346.803398875 311.803398875
+above mid
+draw in loop      211 347 250 347
+347.803398875 311.803398875
+above mid
+draw in loop      212 348 250 348
+348.803398875 311.803398875
+above mid
+draw in loop      212 349 250 349
+349.803398875 311.803398875
+above mid
+draw in loop      213 350 250 350
+350.803398875 311.803398875
+above mid
+draw in loop      213 351 250 351
+351.803398875 311.803398875
+above mid
+draw in loop      214 352 250 352
+352.803398875 311.803398875
+above mid
+draw in loop      215 353 250 353
+353.803398875 311.803398875
+above mid
+draw in loop      215 354 250 354
+354.803398875 311.803398875
+above mid
+draw in loop      216 355 250 355
+355.803398875 311.803398875
+above mid
+draw in loop      216 356 250 356
+356.803398875 311.803398875
+above mid
+draw in loop      217 357 250 357
+357.803398875 311.803398875
+above mid
+draw in loop      218 358 250 358
+358.803398875 311.803398875
+above mid
+draw in loop      218 359 250 359
+359.803398875 311.803398875
+above mid
+draw in loop      219 360 250 360
+360.803398875 311.803398875
+above mid
+draw in loop      219 361 250 361
+361.803398875 311.803398875
+above mid
+draw in loop      220 362 250 362
+362.803398875 311.803398875
+above mid
+draw in loop      221 363 250 363
+363.803398875 311.803398875
+above mid
+draw in loop      221 364 250 364
+364.803398875 311.803398875
+above mid
+draw in loop      222 365 250 365
+365.803398875 311.803398875
+above mid
+draw in loop      222 366 250 366
+366.803398875 311.803398875
+above mid
+draw in loop      223 367 250 367
+367.803398875 311.803398875
+above mid
+draw in loop      224 368 250 368
+368.803398875 311.803398875
+above mid
+draw in loop      224 369 250 369
+369.803398875 311.803398875
+above mid
+draw in loop      225 370 250 370
+370.803398875 311.803398875
+above mid
+draw in loop      225 371 250 371
+371.803398875 311.803398875
+above mid
+draw in loop      226 372 250 372
+372.803398875 311.803398875
+above mid
+draw in loop      227 373 250 373
+373.803398875 311.803398875
+above mid
+draw in loop      227 374 250 374
+374.803398875 311.803398875
+above mid
+draw in loop      228 375 250 375
+375.803398875 311.803398875
+above mid
+draw in loop      228 376 250 376
+376.803398875 311.803398875
+above mid
+draw in loop      229 377 250 377
+377.803398875 311.803398875
+above mid
+draw in loop      230 378 250 378
+378.803398875 311.803398875
+above mid
+draw in loop      230 379 250 379
+379.803398875 311.803398875
+above mid
+draw in loop      231 380 250 380
+380.803398875 311.803398875
+above mid
+draw in loop      231 381 250 381
+381.803398875 311.803398875
+above mid
+draw in loop      232 382 250 382
+382.803398875 311.803398875
+above mid
+draw in loop      233 383 250 383
+383.803398875 311.803398875
+above mid
+draw in loop      233 384 250 384
+384.803398875 311.803398875
+above mid
+draw in loop      234 385 250 385
+385.803398875 311.803398875
+above mid
+draw in loop      234 386 250 386
+386.803398875 311.803398875
+above mid
+draw in loop      235 387 250 387
+387.803398875 311.803398875
+above mid
+draw in loop      236 388 250 388
+388.803398875 311.803398875
+above mid
+draw in loop      236 389 250 389
+389.803398875 311.803398875
+above mid
+draw in loop      237 390 250 390
+390.803398875 311.803398875
+above mid
+draw in loop      237 391 250 391
+391.803398875 311.803398875
+above mid
+draw in loop      238 392 250 392
+392.803398875 311.803398875
+above mid
+draw in loop      239 393 250 393
+393.803398875 311.803398875
+above mid
+draw in loop      239 394 250 394
+394.803398875 311.803398875
+above mid
+draw in loop      240 395 250 395
+395.803398875 311.803398875
+above mid
+draw in loop      240 396 250 396
+396.803398875 311.803398875
+above mid
+draw in loop      241 397 250 397
+397.803398875 311.803398875
+above mid
+draw in loop      242 398 250 398
+398.803398875 311.803398875
+above mid
+draw in loop      242 399 250 399
+399.803398875 311.803398875
+above mid
+draw in loop      243 400 250 400
+400.803398875 311.803398875
+above mid
+draw in loop      243 401 250 401
+401.803398875 311.803398875
+above mid
+draw in loop      244 402 250 402
+402.803398875 311.803398875
+above mid
+draw in loop      245 403 250 403
+403.803398875 311.803398875
+above mid
+draw in loop      245 404 250 404
+404.803398875 311.803398875
+above mid
+draw in loop      246 405 250 405
+405.803398875 311.803398875
+above mid
+draw in loop      246 406 250 406
+406.803398875 311.803398875
+above mid
+draw in loop      247 407 250 407
+407.803398875 311.803398875
+above mid
+draw in loop      248 408 250 408
+408.803398875 311.803398875
+above mid
+draw in loop      248 409 250 409
+409.803398875 311.803398875
+above mid
+draw in loop      249 410 250 410
+410.803398875 311.803398875
+above mid
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+going to middle
+('display',)
+Saving animation as simple.gif
+{}

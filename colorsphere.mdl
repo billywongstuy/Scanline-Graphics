@@ -1,0 +1,13 @@
+frames 40
+basename colorsphere
+
+push
+
+move 250 250 0
+rotate y 360 hspinny
+rotate x 360 vspinny
+
+sphere 0 0 0 200
+
+vary hspinny 0 39 0 1
+vary vspinny 0 39 0 1
