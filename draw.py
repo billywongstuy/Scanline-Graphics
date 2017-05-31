@@ -60,7 +60,7 @@ def draw_polygons( matrix, screen, color ):
 
 
 def scanline(screen,pts,color):
-   #color = [255,255,0]
+    #color = [255,255,0]
     
     lowX = pts[0][0]
     lowY = pts[0][1]
@@ -78,36 +78,50 @@ def scanline(screen,pts,color):
         x1 = midX
 
     #print 'starting vals   ',(lowX,lowY),(midX,midY),(topX,topY)
-        
+
+
+    if lowY != midY:
+        d_x1 = ((1.0*(midX-lowX))/(1.0*(midY-lowY)))
+    else:
+        d_x1 = ((1.0*(topX-lowX))/(1.0*(topY-lowY)))
+    
     y = lowY
     i = 0
     while y < topY:
-        print 'draw in loop     ',int(x0),int(y),int(x1),int(y)
-        #print y,midY
-                
-        draw_line(int(x0),int(y),int(x1),int(y),screen,color)
 
-        if y+0.000001 < midY:
-            #print 'less'
-            #print midY,lowY
-            #print pts
-            d_x1 = ((1.0*(midX-lowX))/(1.0*(midY-lowY)))
-        else:
-            print 'more'
-            d_x1 = ((1.0*(topX-midX))/(1.0*(topY-midY)))
-            
+        draw_line(int(x0),int(y),int(x1),int(y),screen,color)
+        
+        #print y < topY, y, topY
+        #if color == [188,87,31]:
+            #print 'draw in loop     ',int(x0),int(y),int(x1),int(y)
+            #print 'current:',y,'mid:',midY,'top:',topY
+
+        #correction if difference between y and midY is less than 1
+        
+        if (y < midY and midY-y < 1):
+            #print 'rig less'
+            y = midY
+            x1 = midX
+            x0 += d_x0
+            #if color == [188,87,31]:
+                #print 'draw in loop     ',int(x0),int(y),int(x1),int(y)
+            draw_line(int(x0),int(y),int(x1),int(y),screen,color)
+        
+        if y == midY:
+            x1 = midX
+            if topY != midY:
+                d_x1 = ((1.0*(topX-midX))/(1.0*(topY-midY)))
+            else:
+                d_x1 = ((1.0*(topX-lowX))/(1.0*(topY-lowY)))
+                
         x0 += d_x0
         x1 += d_x1
         y += 1
         i += 1
 
-        #correction if difference between y and midY is less than 1
-        if y < midY and midY-y < 1:
-            draw_line(int(x0),int(y),int(x1),int(y),screen,color)
-            y = midY
-            x1 = midX
-            d_x1 = 0
-
+        
+        
+            
 
 def add_box( polygons, x, y, z, width, height, depth, color=None ):
     x1 = x + width
